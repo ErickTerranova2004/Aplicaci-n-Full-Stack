@@ -13,11 +13,13 @@ Aplicación web **Full Stack** que gestiona un catálogo de productos y la lista
 
 | Integrante | Usuario GitHub | Aportes principales |
 |---|---|---|
-| Erick Terranova | [@ErickTerranova2004](https://github.com/ErickTerranova2004) | _Completar_ |
-| _Nombre Apellido 2_ | _@usuario2_ | _Completar_ |
-| _Nombre Apellido 3_ | _@usuario3_ | _Completar_ |
-| _Nombre Apellido 4_ | _@usuario4_ | _Completar_ |
-| _Nombre Apellido 5_ | _@usuario5_ | _Completar_ |
+| Aaron Alejandro Bayas Caicedo | _@usuario_ | _Completar_ |
+| Jostin Fernando Chalán Mora | _@usuario_ | _Completar_ |
+| Erick Steven Terranova Vega | [@ErickTerranova2004](https://github.com/ErickTerranova2004) | _Completar_ |
+| Fernando Javier Zavala Cataña | _@usuario_ | _Completar_ |
+| Marlon Rainier Aguiño Salinas | _@usuario_ | _Completar_ |
+
+Periodo académico: agosto 2026 a diciembre 2026.
 
 ## Funcionalidades
 
@@ -88,8 +90,8 @@ frontend/
 ## Instalación y ejecución local
 
 ```bash
-git clone https://github.com/ErickTerranova2004/-catalogo-favoritos-api.git
-cd -catalogo-favoritos-api
+git clone https://github.com/ErickTerranova2004/Aplicaci-n-Full-Stack.git
+cd Aplicaci-n-Full-Stack
 
 # 1) Back-End
 cd backend
