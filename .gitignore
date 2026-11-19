@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Entornos de Postman con valores reales (tokens, contraseñas)
+backend/postman/local.postman_environment.json
+newman/
+
+# Logs y sistema
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

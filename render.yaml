@@ -1,0 +1,48 @@
+# Blueprint de Render: despliega el Back-End (API) y el Front-End (React) desde este repositorio.
+# Render > New > Blueprint > selecciona el repositorio. Los valores marcados con sync:false
+# se piden en el panel (nunca se suben secretos al repositorio).
+services:
+  # ---------- Back-End: Node.js + Express ----------
+  - type: web
+    name: catalogo-favoritos-api
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/salud
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: MONGODB_URI          # cadena de conexión de MongoDB Atlas
+        sync: false
+      - key: JWT_SECRET           # se genera automáticamente un valor aleatorio
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 1h
+      - key: BCRYPT_ROUNDS
+        value: "10"
+      - key: CORS_ORIGIN          # URL pública del Front-End (ej. https://catalogo-favoritos-web.onrender.com)
+        sync: false
+      - key: ADMIN_NOMBRE
+        value: Administrador
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+
+  # ---------- Front-End: React (sitio estático compilado con Vite) ----------
+  - type: web
+    name: catalogo-favoritos-web
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL         # URL pública de la API + /api
+        sync: false
+    routes:
+      # React Router: cualquier ruta (/favoritos, /admin/...) se resuelve con index.html
+      - type: rewrite
+        source: /*
+        destination: /index.html
