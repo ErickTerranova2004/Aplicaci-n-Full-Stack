@@ -13,11 +13,11 @@ Aplicación web **Full Stack** que gestiona un catálogo de productos y la lista
 
 | Integrante | Usuario GitHub | Aportes principales |
 |---|---|---|
-| Aaron Alejandro Bayas Caicedo | _@usuario_ | _Completar_ |
-| Jostin Fernando Chalán Mora | _@usuario_ | _Completar_ |
+| Aaron Alejandro Bayas Caicedo | [@AaronBayas](https://github.com/AaronBayas) | _Completar_ |
+| Jostin Fernando Chalán Mora | [@jostin49](https://github.com/jostin49) | _Completar_ |
 | Erick Steven Terranova Vega | [@ErickTerranova2004](https://github.com/ErickTerranova2004) | _Completar_ |
-| Fernando Javier Zavala Cataña | _@usuario_ | _Completar_ |
-| Marlon Rainier Aguiño Salinas | _@usuario_ | _Completar_ |
+| Fernando Javier Zavala Cataña | [@fernandozavala199](https://github.com/fernandozavala199) | _Completar_ |
+| Marlon Rainier Aguiño Salinas | [@Marlonsaguino](https://github.com/Marlonsaguino) | _Completar_ |
 
 Periodo académico: agosto 2026 a diciembre 2026.
 
