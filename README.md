@@ -13,11 +13,11 @@ Aplicación web **Full Stack** que gestiona un catálogo de productos y la lista
 
 | Integrante | Usuario GitHub | Aportes principales |
 |---|---|---|
-| Aaron Alejandro Bayas Caicedo | [@AaronBayas](https://github.com/AaronBayas) | _Completar_ |
-| Jostin Fernando Chalán Mora | [@jostin49](https://github.com/jostin49) | _Completar_ |
-| Erick Steven Terranova Vega | [@ErickTerranova2004](https://github.com/ErickTerranova2004) | _Completar_ |
-| Fernando Javier Zavala Cataña | [@fernandozavala199](https://github.com/fernandozavala199) | _Completar_ |
-| Marlon Rainier Aguiño Salinas | [@Marlonsaguino](https://github.com/Marlonsaguino) | _Completar_ |
+| Aaron Alejandro Bayas Caicedo | [@AaronBayas](https://github.com/AaronBayas) | Autenticación con JWT: registro, login, hash con bcrypt, middlewares `verificarToken` y `requiereRol`, ruta protegida `/auth/perfil` |
+| Jostin Fernando Chalán Mora | [@jostin49](https://github.com/jostin49) | Front-End React: catálogo, registro, login, Mis favoritos, `AuthContext`, rutas protegidas y diseño de la interfaz |
+| Erick Steven Terranova Vega | [@ErickTerranova2004](https://github.com/ErickTerranova2004) | Coordinación del proyecto, migración a MongoDB (modelos Mongoose), CRUD transaccional de productos y favoritos, integración Front-End/Back-End |
+| Fernando Javier Zavala Cataña | [@fernandozavala199](https://github.com/fernandozavala199) | Reportería con agregaciones de MongoDB y exportación CSV, panel de administración de productos, pruebas automatizadas y colección de Postman |
+| Marlon Rainier Aguiño Salinas | [@Marlonsaguino](https://github.com/Marlonsaguino) | Despliegue (MongoDB Atlas y Render, `render.yaml`), documentación (README, DEPLOY.md), informe y video demostrativo |
 
 Periodo académico: agosto 2026 a diciembre 2026.
 
